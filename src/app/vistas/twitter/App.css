@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+
+.wrapper {
+  background: #fff;
+  height: 60;
+  margin: 10px 0;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.box {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.raf-comment-item {
+  border-bottom: 0;
+}
+
+/* Estilos para el efecto hover */
+.profile-image:hover {
+  opacity: 0.8; /* Por ejemplo, reduce la opacidad al pasar el cursor */
+  cursor: pointer; /* Cambia el cursor al pasar el cursor sobre la imagen */
+}
